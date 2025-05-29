@@ -1,148 +1,98 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoLiers - Vendas de Motos Multimarcas</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="https://www.bmw.com/favicon.ico">
-    <link rel="javascript" href="script.js">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="script.js" defer></script>
 </head>
-  
-
 <body>
-    <section id="home">
-    <header>
+    <header id="home">
         <h1>Bem-vindo à MotoLiers</h1>
-        <p>Uma Multimarcas apaixonada por Duas Rodas!</p>
+        <p>Uma multimarcas apaixonada por duas rodas!</p>
+        <p>Encontre a moto dos seus sonhos com as melhores marcas!</p>
     </header>
+
+    <nav aria-label="Menu Principal">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#destaques">Destaques</a></li>
+            <li><a href="#modelos">Modelos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="marcas" aria-label="Marcas Disponíveis">
+        <h2>Confira Nosso Catálogo de Motocicletas</h2>
+        <p>Explore as melhores motos esportivas e confiáveis!</p>
+        <nav aria-label="Marcas">
+            <ul>
+                <li><a href="#honda">Honda</a></li>
+                <li><a href="#yamaha">Yamaha</a></li>
+                <li><a href="#triumph">Triumph</a></li>
+                <li><a href="#kawasaki">Kawasaki</a></li>
+                <li><a href="#bmw">BMW</a></li>
+            </ul>
+        </nav>
     </section>
 
-    <header>
-        <p><strong>MotoLiers - Motos Multimarcas</strong></p>
-        <p>Encontre a moto dos seus sonhos com as melhores marcas!</p>
-        <p>Explore nosso catálogo e descubra a moto perfeita para você!</p>
-        <p>Uma Multimarcas apaixonada por Duas Rodas!</p>
-    </header>
-    
-    <!-- Menu para navegação da página -->
-    
-    <div role="navigation" aria-label="Menu Principal">
-    <header>
-        <ul>
-            <button><a href="#home">Início</a></button>
-            <button><a href="#destaques">Destaques</a></button>
-            <button><a href="#contato">Contato</a></button>
-            <button><a href="#modelos">Modelos</a></button>
-        </ul>
-    </header>
-    </div>
-
-    <div role="complementary" aria-label="marcas">
-        <h2>Confira agora Nossas Motocicletas!</h2>
-            <p>Segue abaixo nosso <strong>Catálogo</strong> de motos!</p>
-            <p>Com algumas das motos favoritas, esportivas e confiaveis!</p>
-            <p>Explore nosso catálogo e descubra a moto perfeita para você!</p>
-        <div role="navigation" aria-label="Marcas">
-            <section id="marcas">
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="#honda">Honda</a></li>
-                            <li><a href="#yamaha">Yamaha</a></li>
-                            <li><a href="#triumph">Triumph</a></li>
-                            <li><a href="#kawasaki">Kawasaki</a></li>
-                            <li><a href="#bmw">BMW</a></li>
-                        </ul>
-                    </nav>
-                </header>
-            </section>
-        </div>
-    </div>
-    
-    <!-- Inico dos modelos das motos -->
-    
     <section id="modelos">
         <h2>Modelos Disponíveis</h2>
-    </section>
-    <!--Seção da CB 500F-->    
-        <section id="honda">
-            <div class="CB500F">
-                <h3>Honda CB 500F</h3>
-                <img src="https://299imports.com.br/uploads/20241104113342-aab830f3-6536-4223-b59c-6d87e469aabe.jpg"  class="hover-image"  alt="Honda CB 500F" width="600" height="400">
-                <section id="caracteristicas">
-                    
-                    <!-- Caracteristicas sobre o modelo Honda CB 500F-->
-                    
-                    <p><strong>Honda CB 500F (2021)</strong></p>
-                    <p>Uma moto versátil e ágil, perfeita para o dia a dia.</p>
-                    <ul>
-                        <li><strong>Preço:</strong> R$ 45.900</li>
-                        <li><strong>Ano:</strong> 2021</li>
-                        <li><strong>Cor:</strong> Vermelha</li>
-                    </ul>
-                </section>
 
-                <!--Uma breve aprensentação da CB 500F-->
-
-                <div class="video">
-                    <p><strong>Vídeo de Apresentação</strong></p>
-                    <p>Confira nosso vídeo de apresentação da Honda CB 500F!</p>
-
-                     
-                    <div style="padding:40% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1086243975?h=f5335c9544&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1" frameborder="0"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CB 500F"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <br />
-
-                    <!--Uma lista dos pontos Positivos sobre a CB 500F-->
-
-                    <p>Porque Escolher a CB 500F?</p>
-                
-                    <ul>
-                        <li><strong>Desempenho:</strong> Motor de 471cc, potência de 47 cv.</li>
-                        <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
-                        <li><strong>Tecnologia:</strong> Painel digital e iluminação em LED.</li>
-                        <li><strong>Estilo:</strong> Design agressivo e moderno.</li>
-                        <li><strong>Segurança:</strong> Freios ABS e suspensão ajustável.</li>
-                    </ul>
-                
+        <!-- Honda CB 500F -->
+        <article id="honda" class="modelo">
+            <h3>Honda CB 500F (2021)</h3>
+            <img src="https://299imports.com.br/uploads/20241104113342-aab830f3-6536-4223-b59c-6d87e469aabe.jpg" class="hover-image" alt="Moto Honda CB 500F vermelha 2021" width="600" height="400">
+            <section class="caracteristicas">
+                <p>Uma moto versátil e ágil, perfeita para o dia a dia.</p>
+                <ul>
+                    <li><strong>Preço:</strong> R$ 45.900</li>
+                    <li><strong>Ano:</strong> 2021</li>
+                    <li><strong>Cor:</strong> Vermelha</li>
+                </ul>
+            </section>
+            <div class="video">
+                <h4>Vídeo de Apresentação</h4>
+                <p>Confira a apresentação da Honda CB 500F!</p>
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1086243975?h=f5335c9544&badge=0&autopause=0&app_id=58479&autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Apresentação da Honda CB 500F"></iframe>
                 </div>
             </div>
-        </section>
-        
-
-        </div>
-        
-                
+            <section class="features">
+                <h4>Por que Escolher a CB 500F?</h4>
+                <ul>
+                    <li><strong>Desempenho:</strong> Motor de 471cc, potência de 47 cv.</li>
+                    <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
+                    <li><strong>Tecnologia:</strong> Painel digital e iluminação em LED.</li>
+                    <li><strong>Estilo:</strong> Design agressivo e moderno.</li>
+                    <li><strong>Segurança:</strong> Freios ABS e suspensão ajustável.</li>
+                </ul>
             </section>
-            <div class="modelos">
-                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202505/20250505/yamaha-mt03-abs-wmimagem14073500223.webp?s=fill&w=1920&h=1440&q=75.jpeg" class="hover-image" alt="Yamaha MT-03" width="600" height="400">
-                <p>Estilo e desempenho em uma moto naked incrível</p>
+        </article>
 
-                
-                    <p><strong>Vídeo de Apresentação da YAMAHA MT-03</strong></p>
-                    <p>Confira nosso vídeo de apresentação da Yamaha MT-03!</p>
-
-                    <div style="padding:40% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1086437522?h=ca6ce483fc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MT 03"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-                    <br />
-                
-                    <label for="color">Selecionar Cor</label>
-                <input type="color" id="color" name="color" value="#000000">
-            </div>
-            <section id="yamaha">
-                
-                    <h4>Estilo e desempenho: Yamaha MT-03</h4>
-                    <section id="caracteristicas">
-                    <p><strong>YAMAHA MT-03 (2021)</strong></p>
-                    <ul>
+        <!-- Yamaha MT-03 -->
+        <article id="yamaha" class="modelo">
+            <h3>Yamaha MT-03 (2021)</h3>
+            <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202505/20250505/yamaha-mt03-abs-wmimagem14073500223.webp?s=fill&w=1920&h=1440&q=75.jpeg" class="hover-image" alt="Moto Yamaha MT-03 azul 2021" width="600" height="400">
+            <section class="caracteristicas">
+                <p>Estilo e desempenho em uma moto naked incrível.</p>
+                <ul>
                     <li><strong>Preço:</strong> R$ 39.900</li>
                     <li><strong>Ano:</strong> 2021</li>
                     <li><strong>Cor:</strong> Azul</li>
-                    </ul>
-                    </section>
+                </ul>
             </section>
-            <div>
-                <p><b>Porque escolher a MT-03?</b></p>  
-               
+            <div class="video">
+                <h4>Vídeo de Apresentação</h4>
+                <p>Confira a apresentação da Yamaha MT-03!</p>
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1086437522?h=ca6ce483fc&badge=0&autopause=0&app_id=58479&autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Apresentação da Yamaha MT-03"></iframe>
+                </div>
+            </div>
+            <section class="features">
+                <h4>Por que Escolher a MT-03?</h4>
                 <ul>
                     <li><strong>Desempenho:</strong> Motor de 321cc, potência de 42 cv.</li>
                     <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
@@ -150,164 +100,123 @@
                     <li><strong>Estilo:</strong> Design agressivo e moderno.</li>
                     <li><strong>Segurança:</strong> Freios ABS e suspensão ajustável.</li>
                 </ul>
-                        
+            </section>
+            <label for="color-yamaha">Selecionar Cor</label>
+            <input type="color" id="color-yamaha" name="color" value="#000000">
+        </article>
+
+        <!-- BMW R1200 GS -->
+        <article id="bmw" class="modelo">
+            <h3>BMW R1200 GS (2019)</h3>
+            <img src="https://wallpapercave.com/wp/wp7432722.jpg" class="hover-image" alt="Moto BMW R1200 GS 2019" width="600" height="400">
+            <section class="caracteristicas">
+                <p>Potência, estilo e aventura para qualquer terreno.</p>
+                <ul>
+                    <li><strong>Preço:</strong> R$ 69.900</li>
+                    <li><strong>Desempenho:</strong> Motor boxer de 125 cv.</li>
+                </ul>
+            </section>
+            <div class="video">
+                <h4>Vídeo de Apresentação</h4>
+                <p>Confira a apresentação da BMW R1200 GS!</p>
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1086437481?h=f391e0d869&badge=0&autopause=0&app_id=58479&autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Apresentação da BMW R1200 GS"></iframe>
+                </div>
             </div>
-        
-            
-                
-    <section id="destaques">
-        <section id="bmw">
-            <div id="BMWR1200GS">
-    </section>
-        <p><Strong>Destaque:</Strong> BMW R1200 GS 2019</p>
+            <section class="features">
+                <h4>Por que Escolher a BMW R1200 GS?</h4>
+                <ul>
+                    <li><strong>Desempenho Superior:</strong> Motor boxer de 125 cv para qualquer terreno.</li>
+                    <li><strong>Conforto Ergonômico:</strong> Design otimizado para longas viagens.</li>
+                    <li><strong>Tecnologia Avançada:</strong> Painel digital e modos de pilotagem.</li>
+                    <li><strong>Durabilidade:</strong> Construção robusta para condições extremas.</li>
+                    <li><strong>Estilo Inconfundível:</strong> Design icônico e elegante.</li>
+                </ul>
+            </section>
+        </article>
 
-        <img src="https://wallpapercave.com/wp/wp7432722.jpg" class="hover-image" alt="BMW R1200 GS 2019" width="600" height="400">
-        <br />
-    
-    <div class="video">
-        <p><strong>Vídeo de Apresentação</strong></p>
-        <p>Confira nosso vídeo de apresentação da BMW R1200 GS!</p>
-        
-        <div style="padding:40% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1086437481?h=f391e0d869&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:15%;" title="BMW R1200 GS"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-    
-        <section id="caracteristicas">
-            
-        <p><Strong>BMW R1200 GS (2019)</Strong></p>
-        <p>Potência, estilo e aventura! A BMW R1200 GS 2019 é a escolha perfeita para quem busca desempenho e conforto em qualquer terreno.</p>
-        <ul>
-            <li><strong>Desempenho</strong> na estrada e no Off Road</li>
-            <li><strong>Por apenas</strong> R$ 69.900</li>
-        </ul>
-    </section>
-        <div class="features">
-            <p><strong>Porque escolher a BMW R1200 GS?</strong></p>
-            
-            <ul>
-                <li><strong>Desempenho Superior:</strong> Motor boxer de 125 cv para potência em qualquer terreno.</li>
-                <li><strong>Conforto Ergonômico:</strong> Design otimizado para longas viagens com assento ajustável.</li>
-                <li><strong>Tecnologia Avançada:</strong> Painel digital, modos de pilotagem e controle de tração.</li>
-                <li><strong>Durabilidade:</strong> Construção robusta para enfrentar condições extremas com baixa manutenção.</li>
-                <li><strong>Estilo Inconfundível:</strong> Design icônico que combina elegância e agressividade.</li>
-            </ul>
-        
-        </div>
-        </div>
-
-
-
-    </section>
-
-    <section id="triumph">
-        
-        <div id="Tiger 900 rally aragon">
-
-            <p><storng>Tiger 900 Rally Aragon</storng></p>
-        
-                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202504/20250427/triumphtiger_900_rally_aragonwmimagem19051210973.jpg?s=fill&w=1920&h=1440&q=75.jpg" class="hover-image" alt="Triger 900 Rally Aragon" width="600" height="400">
-            <section id="caracteristicas">
-                    <p>Uma moto aventureira com design robusto e tecnologia avançada.</p>
-                    <p><strong>TIGER 900 Rally Aragón</strong></p>
+        <!-- Triumph Tiger 900 Rally Aragón -->
+        <article id="triumph" class="modelo">
+            <h3>Triumph Tiger 900 Rally Aragón (2021)</h3>
+            <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202504/20250427/triumphtiger_900_rally_aragonwmimagem19051210973.jpg?s=fill&w=1920&h=1440&q=75.jpg" class="hover-image" alt="Moto Triumph Tiger 900 Rally Aragón branca 2021" width="600" height="400">
+            <section class="caracteristicas">
+                <p>Uma moto aventureira com design robusto e tecnologia avançada.</p>
                 <ul>
                     <li><strong>Preço:</strong> R$ 69.900</li>
                     <li><strong>Ano:</strong> 2021</li>
                     <li><strong>Cor:</strong> Branco</li>
                 </ul>
             </section>
-                <p><strong>Características:</strong></p>
-                    <li><strong>Versatilidade:</strong> Ideal para aventuras em estrada e off-road.</li>
-                    <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
-                    <li><strong>Tecnologia:</strong> Painel digital e iluminação em LED.</li>
-                    <li><strong>Estilo:</strong> Design robusto e moderno.</li>
-                    <li><strong>Segurança:</strong> Freios ABS e suspensão ajustável.</li>
-                </ul>
-        
-        
-                    <p><strong>Porque escolher a Triger 900 Rally Aragon?</strong></p>
-          
+            <div class="video">
+                <h4>Vídeo de Apresentação</h4>
+                <p>Confira a apresentação da Triumph Tiger 900 Rally Aragón!</p>
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1086437549?h=c5ccdd6349&badge=0&autopause=0&app_id=58479&autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Apresentação da Triumph Tiger 900 Rally Aragón"></iframe>
+                </div>
+            </div>
+            <section class="features">
+                <h4>Por que Escolher a Tiger 900 Rally Aragón?</h4>
                 <ul>
-                    <li><strong>Edição Comemorativa:</strong> Aragón é uma edição comemorativa do Rally Baja Aragón de 2022.</li>
-                    <li><strong>Desempenho Off-Road e Estrada:</strong> Aragón é otimizada para off-road com suspensão Showa ajustável e protetores de motor e tanque.</li>
-                    <li><strong>Design Exclusivo:</strong> A Rally Aragón apresenta pintura em Matt Phantom BlackAs, edição com assento bicolor e logotipos exclusivos.</li>
-                    <li><strong>Tecnologia Avançada:</strong> Equipada com tela TFT de 7 polegadas, conectividade MyTriumph, quickshifter Aragón garante conforto e segurança.</li>
-                    <li><strong>Rodução e Mercado:</strong> No Brasil, a Tiger 900 Aragón marcou a produção de 50 mil motos da Triumph em Manaus, com preços a partir de R$ 70.990 (Rally) </li>
+                    <li><strong>Edição Comemorativa:</strong> Celebra o Rally Baja Aragón de 2022.</li>
+                    <li><strong>Desempenho Off-Road:</strong> Suspensão Showa ajustável e protetores.</li>
+                    <li><strong>Design Exclusivo:</strong> Pintura Matt Phantom Black e assento bicolor.</li>
+                    <li><strong>Tecnologia Avançada:</strong> Tela TFT de 7 polegadas e quickshifter.</li>
+                    <li><strong>Produção:</strong> 50 mil motos Triumph em Manaus.</li>
                 </ul>
-          
-        
-        
-                    <p><strong>Vídeo de Apresentação</strong></p>
-                    <p>Confira nosso vídeo de apresentação da Triger 900 Rally Aragon!</p>
-                        
-                    <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1086437549?h=c5ccdd6349&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TIGER 900 Aragón"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-        </div>
+            </section>
+        </article>
     </section>
 
-        <p><strong>Se interessou?</strong> Entre em contato para mais informações!</p>
-    <section>
-        <button><a href="#contato" class="cta-button">Entrar em Contato</a></button>
-    </section>
     <section id="contato">
-        <p><strong>Não encontrou seu modelo?</strong></p>
-        <p>Preencha o formulário abaixo para mais informações sobre nossas motos.</p>
+        <p>Entre em Contato</p>
+        <p>Não encontrou seu modelo? Preencha o formulário abaixo!</p>
         <section id="formulario">
+            <form action="submit_form.php" method="post">
                 
-                <form action="submit_form.php" method="post">
-                    <hearder>  
-                        <label for="nome">Nome</label>
-                        
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome" minlength="3" maxlength="30" required>
-                        
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Ex.. MotoLiers@gmail.com" minlength="7"  maxlength="25" required>
-                        
-                        <label for="mensagem">Mensagem</label>
-                        
-                        <textarea id="mensagem" name="mensagem"  placeholder="Digite sua Mensagem!"  min="10" required></textarea>
-                        <br />
-                        <button type="submit">Enviar mensagem!</button>
-                        <button type="reset">Apagar</button>
-                        
-                    </hearder>
-                </form>
-                <br />
+                <input type="text" id="nome" name="nome" placeholder="Nome" minlength="3" maxlength="30" required>
+                
+                
+                <input type="email" id="email" name="email" placeholder="Ex.: motoliers@gmail.com" minlength="7" maxlength="25" required>
+                
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem!" minlength="10" required></textarea>
+                
+                <button type="submit">Enviar Mensagem</button>
+                <button type="reset">Apagar</button>
+            </form>
         </section>
-                <p>Ao enviar, você concorda com nossa <a href="#politica-de-privacidade">Política de Privacidade</a>.</p>
-                <p>Ou entre em contato pelo WhatsApp <strong>(11) 4002-8922</strong></p>
+        <p>Ao enviar, você concorda com nossa <a href="#politica-de-privacidade">Política de Privacidade</a>.</p>
+        <p>Ou entre em contato pelo WhatsApp: <strong>(11) 4002-8922</strong></p>
+        <a href="#contato" class="cta-button">Entrar em Contato</a>
     </section>
 
     <section id="redes-sociais">
-        <p><b>Siga-nos nas Redes Sociais</b></p>
-                <header>
-                    <nav role="navigation" aria-label="Redes Sociais">
-                        <ul>
-                            <li><a href="https://www.instagram.com/MotoLiers" target="_blank">Instagram</a></li>
-                            <li><a href="https://www.youtube.com/MotoLiers" target="_blank">YouTube</a></li>
-                            <li><a href="https://www.facebook.com/MotoLiers" target="_blank">Facebook</a></li>
-                            <li><a href="https://www.linkedin.com/company/MotoLiers" target="_blank">LinkedIn</a></li>
-                        </ul>
-                </header>
+        <p>Siga-nos nas Redes Sociais</p>
+        <nav aria-label="Redes Sociais">
+            <ul>
+                <li><a href="https://www.instagram.com/MotoLiers" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://www.youtube.com/MotoLiers" target="_blank" rel="noopener">YouTube</a></li>
+                <li><a href="https://www.facebook.com/MotoLiers" target="_blank" rel="noopener">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/MotoLiers" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+        </nav>
     </section>
-        
+
     <section id="links-uteis">
-        <p><b>Links Úteis</b></p>
-            <header>
-                <nav role="navigation" aria-label="Links Úteis">
-                    <ul>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                        <li><a href="#politica-de-privacidade">Política de Privacidade</a></li>
-                        <li><a href="#sobre-nos">Sobre Nós</a></li>
-                        <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
-                        <li><a href="#localizacao">Localização</a></li>
-                    </ul>
-                </nav>
-            </header>
+        <p>Links Úteis</p>
+        <nav aria-label="Links Úteis">
+            <ul>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#politica-de-privacidade">Política de Privacidade</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
     </section>
-    <br />
-    
+
     <footer>
         <p>© 2025 MotoLiers. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
