@@ -7,8 +7,8 @@ background-color: black;
 text-align: center;
 padding: 20px;
 font-family: Arial, sans-serif;
-font-size: 50px;
-font-weight: bold;
+font-size: 100px;
+font-weight: 700;
 
 }
 .hover-image {
@@ -40,6 +40,11 @@ body {
     padding: 20px;
     text-align: center;
     text-shadow: violet 0px 0px 10px, blue 0px 0px 20px, cyan 0px 0px 30px;
+    /* Flexbox para centralizar o conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 button {
