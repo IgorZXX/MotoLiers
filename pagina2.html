@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>é a pagina dois né vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<header>
+    <body>
+        <h1>é a pagina dois né vida</h1>
+        <p>Essa é a segunda página do site MotoLiers.</p>
+        <p>Você pode voltar para a <a href="index.html" target="_self">MotoLiers pro aqui!!!</a>.</p>
+    </header>
+        <main>
+            <p>Vamos realizar um pequeno formulario para otimizar suas buscas?</p>
+            <br />
+            <form method="post" autocomplete="off" onsubmit="">
+                <fieldset>
+                    <legend>Nome usuario</legend>        
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Seu Nome.."  min="3" max="20" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <label for="phone">Telefone:</label><input type="number" id="phone" name="phone" placeholder="(55+) 11 4002-8922" pattern="\(\d{2}\) \d{5}-\d{4}" required><br><br>
+                    <label for="email">Email:</label><input type="email" id="email" name="email" required placeholder="Seu Email para contato" ><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Busca</legend>
+                        <label for="search">O que você procura?</label>
+                        <input type="text" id="search" name="search" required><a href="https://www.google.com/" target="_blank"></a><br><br>
+                
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="limpar">
+                </fieldset>
+            </form>
+        </main>
+    </body>
+
+</html>

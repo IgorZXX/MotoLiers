@@ -9,8 +9,9 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+<main>
     <header id="home">
-        <h1>Bem-vindo à MotoLiers</h1>
+        <h1>Bem-vindo à MotoLiers<sup>riders</sup></h1>
         <p>Uma multimarcas apaixonada por duas rodas!</p>
         <p>Encontre a moto dos seus sonhos com as melhores marcas!</p>
     </header>
@@ -31,7 +32,7 @@
             <ul>
                 <li><a href="#honda">Honda</a></li>
                 <li><a href="#yamaha">Yamaha</a></li>
-                <li><a href="#triumph">Triumph</a></li>
+                <li><a href="Triumph.html">Triumph</a></li>
                 <li><a href="#kawasaki">Kawasaki</a></li>
                 <li><a href="#bmw">BMW</a></li>
             </ul>
@@ -40,15 +41,24 @@
 
     <section id="modelos">
         <h2>Modelos Disponíveis</h2>
+        <p>Conheça nossos modelos mais populares!</p>
+        <ol aria-label="Lista de Modelos" >
+            <li><a href="#honda">Honda CB 500F</a></li>
+            <li><a href="#yamaha">Yamaha MT-03</a></li>
+            <li><a href="#bmw">BMW R1200 GS</a></li>
+            <li><a href="#triumph">Triumph Tiger 900 Rally Aragón</a></li>
+        </ol>
 
         <!-- Honda CB 500F -->
         <article id="honda" class="modelo">
             <h3>Honda CB 500F (2021)</h3>
-            <img src="https://299imports.com.br/uploads/20241104113342-aab830f3-6536-4223-b59c-6d87e469aabe.jpg" class="hover-image" alt="Moto Honda CB 500F vermelha 2021" width="600" height="400">
+            <figure>
+                <img src="https://299imports.com.br/uploads/20241104113342-aab830f3-6536-4223-b59c-6d87e469aabe.jpg" class="hover-image" alt="Moto Honda CB 500F vermelha 2021" title="CB 500F" width="600" height="400">
+            </figure>
             <section class="caracteristicas">
                 <p>Uma moto versátil e ágil, perfeita para o dia a dia.</p>
                 <ul>
-                    <li><strong>Preço:</strong> R$ 45.900</li>
+                    <li><strong>Preço:</strong><mark>R$ 45.900</mark></li>
                     <li><strong>Ano:</strong> 2021</li>
                     <li><strong>Cor:</strong> Vermelha</li>
                 </ul>
@@ -61,7 +71,7 @@
                 </div>
             </div>
             <section class="features">
-                <h4>Por que Escolher a CB 500F?</h4>
+                <h4><q>Por que Escolher a CB 500F?</q></h4>
                 <ul>
                     <li><strong>Desempenho:</strong> Motor de 471cc, potência de 47 cv.</li>
                     <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
@@ -75,7 +85,9 @@
         <!-- Yamaha MT-03 -->
         <article id="yamaha" class="modelo">
             <h3>Yamaha MT-03 (2021)</h3>
-            <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202505/20250505/yamaha-mt03-abs-wmimagem14073500223.webp?s=fill&w=1920&h=1440&q=75.jpeg" class="hover-image" alt="Moto Yamaha MT-03 azul 2021" width="600" height="400">
+            <figure>
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202505/20250505/yamaha-mt03-abs-wmimagem14073500223.webp?s=fill&w=1920&h=1440&q=75.jpeg" class="hover-image" alt="Moto Yamaha MT-03 azul 2021" width="600" height="400">
+            </figure>
             <section class="caracteristicas">
                 <p>Estilo e desempenho em uma moto naked incrível.</p>
                 <ul>
@@ -92,7 +104,7 @@
                 </div>
             </div>
             <section class="features">
-                <h4>Por que Escolher a MT-03?</h4>
+                <h4><q>Por que Escolher a MT-03?</q></h4>
                 <ul>
                     <li><strong>Desempenho:</strong> Motor de 321cc, potência de 42 cv.</li>
                     <li><strong>Conforto:</strong> Assento ergonômico e posição de pilotagem relaxada.</li>
@@ -124,7 +136,7 @@
                 </div>
             </div>
             <section class="features">
-                <h4>Por que Escolher a BMW R1200 GS?</h4>
+                <h4><q>Por que Escolher a BMW R1200 GS?</q></h4>
                 <ul>
                     <li><strong>Desempenho Superior:</strong> Motor boxer de 125 cv para qualquer terreno.</li>
                     <li><strong>Conforto Ergonômico:</strong> Design otimizado para longas viagens.</li>
@@ -138,7 +150,9 @@
         <!-- Triumph Tiger 900 Rally Aragón -->
         <article id="triumph" class="modelo">
             <h3>Triumph Tiger 900 Rally Aragón (2021)</h3>
-            <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202504/20250427/triumphtiger_900_rally_aragonwmimagem19051210973.jpg?s=fill&w=1920&h=1440&q=75.jpg" class="hover-image" alt="Moto Triumph Tiger 900 Rally Aragón branca 2021" width="600" height="400">
+            <figure>
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202504/20250427/triumphtiger_900_rally_aragonwmimagem19051210973.jpg?s=fill&w=1920&h=1440&q=75.jpg" class="hover-image" alt="Moto Triumph Tiger 900 Rally Aragón branca 2021" width="600" height="400">
+            </figure>
             <section class="caracteristicas">
                 <p>Uma moto aventureira com design robusto e tecnologia avançada.</p>
                 <ul>
@@ -155,7 +169,7 @@
                 </div>
             </div>
             <section class="features">
-                <h4>Por que Escolher a Tiger 900 Rally Aragón?</h4>
+                <h4><q>Por que Escolher a Tiger 900 Rally Aragón?</q></h4>
                 <ul>
                     <li><strong>Edição Comemorativa:</strong> Celebra o Rally Baja Aragón de 2022.</li>
                     <li><strong>Desempenho Off-Road:</strong> Suspensão Showa ajustável e protetores.</li>
@@ -171,8 +185,8 @@
         <p>Entre em Contato</p>
         <p>Não encontrou seu modelo? Preencha o formulário abaixo!</p>
         <section id="formulario">
-            <form action="submit_form.php" method="post">
-                
+            <form summary="Tabela referente para entar em contato com a MotoLiers" name="contact"  autocomplete="on" action="/MotoLiers/pagina2.html" method="post">
+                <label for="nome"><sup>*</sup>Nome:</label>
                 <input type="text" id="nome" name="nome" placeholder="Nome" minlength="3" maxlength="30" required>
                 
                 
@@ -188,7 +202,8 @@
         <p>Ou entre em contato pelo WhatsApp: <strong>(11) 4002-8922</strong></p>
         <a href="#contato" class="cta-button">Entrar em Contato</a>
     </section>
-
+</main>
+<footer>
     <section id="redes-sociais">
         <p>Siga-nos nas Redes Sociais</p>
         <nav aria-label="Redes Sociais">
@@ -210,13 +225,15 @@
                 <li><a href="#politica-de-privacidade">Política de Privacidade</a></li>
                 <li><a href="#sobre-nos">Sobre Nós</a></li>
                 <li><a href="#trabalhe-conosco">Trabalhe Conosco</a></li>
-                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="localizacao.html" target="_self">Localização</a></li>
             </ul>
         </nav>
     </section>
-
-    <footer>
         <p>© 2025 MotoLiers. Todos os direitos reservados.</p>
-    </footer>
+        <blockquote>Página realizada pelo igor sobe capa de 203!!</blockquote>
+        <a href="https://www.linkedin.com/in/igor-silva-a62b21345/" target="_blank" rel="noopener">Desenvolvido por Igor Silva</a>
+        <p>Contato: <a href="https://api.whatsapp.com/send/?phone=5511917142921&text&type=phone_number&app_absent=0" target="_blank"> 11 91714-2921</a></p>
+        <a href="pagina2.html" target="_self"><small>Acessar a página para contato!</small></a>
+</footer>
 </body>
 </html>
